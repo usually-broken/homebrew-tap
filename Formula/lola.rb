@@ -1,29 +1,29 @@
 class Lola < Formula
   desc "Agent harness where everything is a plugin"
-  homepage "https://github.com/usually-broken/lola"
+  homepage "https://github.com/usually-broken/Lola"
   version "0.1.0"
 
   on_macos do
     on_arm do
       url "https://github.com/usually-broken/Lola/releases/download/v0.1.0/lola_v0.1.0_darwin_arm64.tar.gz"
-      sha256 "c57986792ea33e60eb4d4cb476c3306b0a4d55f51147350ca25941b209aecc9c"
+      sha256 "18e98e3756a019b109bce474cb61a29d1aa8c9528b220625b65b95d62454a7f3"
     end
 
     on_intel do
       url "https://github.com/usually-broken/Lola/releases/download/v0.1.0/lola_v0.1.0_darwin_amd64.tar.gz"
-      sha256 "a14a4e3875cd1f5c913780296cc5798eaf4369c4234d470f9ae88da03738261b"
+      sha256 "4094b4cbf247e03ffcd2534242574a54959fcafa9543ca5d2c0f21ac8e96338c"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/usually-broken/Lola/releases/download/v0.1.0/lola_v0.1.0_linux_arm64.tar.gz"
-      sha256 "fbffc7a69ac820ffc029df08d9d983a32fe370e45798bbe364e4f4b0e522b9d7"
+      sha256 "c18323d87a27aa3b32a8fa7d4f2378b4117c1b1492d48798f737fcf8af61485f"
     end
 
     on_intel do
       url "https://github.com/usually-broken/Lola/releases/download/v0.1.0/lola_v0.1.0_linux_amd64.tar.gz"
-      sha256 "50f079d8c8a311be51fa4353be610757e819e7ac9edc0715c2cad1ccd5bcf09c"
+      sha256 "a01118ba8c174057a151b9913ec85b4dc04bec8478b5a0ba282ae7315d2ed315"
     end
   end
 
