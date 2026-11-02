@@ -6,24 +6,24 @@ class Lola < Formula
   on_macos do
     on_arm do
       url "https://github.com/usually-broken/Lola/releases/download/v0.1.1/lola_v0.1.1_darwin_arm64.tar.gz"
-      sha256 "18e98e3756a019b109bce474cb61a29d1aa8c9528b220625b65b95d62454a7f3"
+      sha256 "934af427405f52a81f4e88b1a7325521e3bb862d1cd473df5a77a01c789879d2"
     end
 
     on_intel do
       url "https://github.com/usually-broken/Lola/releases/download/v0.1.1/lola_v0.1.1_darwin_amd64.tar.gz"
-      sha256 "4094b4cbf247e03ffcd2534242574a54959fcafa9543ca5d2c0f21ac8e96338c"
+      sha256 "675fa73d9dcb02b6d342dda400b1ccd4b72fe642cbd29c6c6d4c927c07131ad5"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/usually-broken/Lola/releases/download/v0.1.1/lola_v0.1.1_linux_arm64.tar.gz"
-      sha256 "c18323d87a27aa3b32a8fa7d4f2378b4117c1b1492d48798f737fcf8af61485f"
+      sha256 "924375e2098c64094995e5e3054bf6fe591b083900b8e2684e55a5d63d9939b6"
     end
 
     on_intel do
       url "https://github.com/usually-broken/Lola/releases/download/v0.1.1/lola_v0.1.1_linux_amd64.tar.gz"
-      sha256 "a01118ba8c174057a151b9913ec85b4dc04bec8478b5a0ba282ae7315d2ed315"
+      sha256 "7d6dfbd35516e30b9bf7c5c195968919c224e0b63927449adde5312430fb5e8c"
     end
   end
 
