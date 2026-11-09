@@ -1,29 +1,29 @@
 class Lola < Formula
   desc "Agent harness where everything is a plugin"
   homepage "https://github.com/usually-broken/Lola"
-  version "0.1.1"
+  version "0.2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/usually-broken/Lola/releases/download/v0.1.1/lola_v0.1.1_darwin_arm64.tar.gz"
-      sha256 "934af427405f52a81f4e88b1a7325521e3bb862d1cd473df5a77a01c789879d2"
+      url "https://github.com/usually-broken/Lola/releases/download/v0.2.0/lola_v0.2.0_darwin_arm64.tar.gz"
+      sha256 "1699590f13e211b467ba94fc60d05ca6e75592912d896b353c2f6e1cc356d75b"
     end
 
     on_intel do
-      url "https://github.com/usually-broken/Lola/releases/download/v0.1.1/lola_v0.1.1_darwin_amd64.tar.gz"
-      sha256 "675fa73d9dcb02b6d342dda400b1ccd4b72fe642cbd29c6c6d4c927c07131ad5"
+      url "https://github.com/usually-broken/Lola/releases/download/v0.2.0/lola_v0.2.0_darwin_amd64.tar.gz"
+      sha256 "8a828997212ad6f51749f82fd75cf5ce6dd3301cfa998b8d29cf94749c8c0422"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/usually-broken/Lola/releases/download/v0.1.1/lola_v0.1.1_linux_arm64.tar.gz"
-      sha256 "924375e2098c64094995e5e3054bf6fe591b083900b8e2684e55a5d63d9939b6"
+      url "https://github.com/usually-broken/Lola/releases/download/v0.2.0/lola_v0.2.0_linux_arm64.tar.gz"
+      sha256 "3e2658aa756b364f84c37b0fe15f2414f703ac2bcce615c2ac890dfb00ef022b"
     end
 
     on_intel do
-      url "https://github.com/usually-broken/Lola/releases/download/v0.1.1/lola_v0.1.1_linux_amd64.tar.gz"
-      sha256 "7d6dfbd35516e30b9bf7c5c195968919c224e0b63927449adde5312430fb5e8c"
+      url "https://github.com/usually-broken/Lola/releases/download/v0.2.0/lola_v0.2.0_linux_amd64.tar.gz"
+      sha256 "5b39195bab267b6140bc67ad97b6c102ecf1f5a73a094d682ec41def5c74404f"
     end
   end
 
